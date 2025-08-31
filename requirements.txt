@@ -1,0 +1,42 @@
+# RAG约会指南智能体依赖包
+langchain==0.1.0
+langchain-community==0.0.10
+langchain-openai==0.0.5
+langchain-chroma==0.0.5
+langchain-google-genai==0.0.6
+langchain-anthropic==0.1.0
+
+# OpenAI支持
+openai==1.3.0
+
+# 向量数据库
+chromadb==0.4.22
+faiss-cpu==1.7.4
+
+# LLM模型
+transformers==4.36.2
+torch==2.1.2
+accelerate==0.25.0
+bitsandbytes==0.41.3
+
+# 网络搜索
+duckduckgo-search==4.1.1
+requests==2.31.0
+beautifulsoup4==4.12.2
+
+# 数据处理
+pandas==2.1.4
+numpy==1.24.3
+python-dotenv==1.0.0
+
+# 工具和工具链
+pydantic==2.5.2
+fastapi==0.104.1
+uvicorn==0.24.0
+
+# 日志和监控
+loguru==0.7.2
+
+# 其他工具
+tiktoken==0.5.2
+sentence-transformers==2.2.2

@@ -1,0 +1,27 @@
+# 七夕约会指南RAG智能体环境配置
+
+# API密钥配置（可选）
+# OPENAI_API_KEY=your_openai_api_key_here
+# ANTHROPIC_API_KEY=your_anthropic_api_key_here
+# GOOGLE_API_KEY=your_google_api_key_here
+
+# 系统配置
+LOG_LEVEL=INFO
+DEBUG=true
+
+# Web服务配置
+HOST=0.0.0.0
+PORT=8000
+
+# 向量数据库配置
+VECTOR_DB_TYPE=chroma
+EMBEDDING_MODEL=sentence-transformers/all-MiniLM-L6-v2
+
+# RAG配置
+CHUNK_SIZE=1000
+CHUNK_OVERLAP=200
+TOP_K_RETRIEVAL=5
+
+# 搜索配置
+SEARCH_ENGINE=duckduckgo
+MAX_SEARCH_RESULTS=10
